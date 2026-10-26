@@ -339,10 +339,10 @@
             document.write('<script src="../../../../sdkjs/vendor/string.js"><\/script>'));
     </script>
     <script src="../../../vendor/requirejs/require.js"></script>
+    <link rel="stylesheet" href="../../../apps/spreadsheeteditor/main/resources/css/app.css">
     <script>
         isIEBrowser === true ? require(['ie/app']) : require(['app']);
     </script>
 
-    <link rel="stylesheet" href="../../../apps/spreadsheeteditor/main/resources/css/app.css" media="print" onload="this.media='all'">
 </body>
 </html>

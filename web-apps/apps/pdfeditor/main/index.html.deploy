@@ -394,6 +394,7 @@
     <inline src="../../common/main/resources/img/combo-border-size/BorderSize.svg" />
     <script src="../../../../../../sdkjs/common/device_scale.js?__inline=true"></script>
     <script src="../../../../../apps/common/checkExtendedPDF.js?__inline=true"></script>
+    <link rel="stylesheet" href="../../../apps/pdfeditor/main/resources/css/app.css">
     <script>
         function startApp() {
             var script = document.createElement("script");
@@ -422,6 +423,5 @@
             startApp();
         }
     </script>
-    <link rel="stylesheet" href="../../../apps/pdfeditor/main/resources/css/app.css" media="print" onload="this.media='all'">
 </body>
 </html>

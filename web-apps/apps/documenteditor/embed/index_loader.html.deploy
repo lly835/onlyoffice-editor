@@ -314,6 +314,7 @@
       <!--application-->
       <script src="../../../../../../sdkjs/common/device_scale.js?__inline=true"></script>
       <script src="../../../../../apps/common/checkExtendedPDF.js?__inline=true"></script>
+      <link href="../../../apps/documenteditor/embed/resources/css/app-all.css" rel="stylesheet">
       <script>
           function startApp() {
               var script = document.createElement("script");
@@ -352,6 +353,5 @@
               );
           }
       </script>
-      <link href="../../../apps/documenteditor/embed/resources/css/app-all.css" rel="stylesheet" media="print" onload="this.media='all'">
   </body>
 </html>
